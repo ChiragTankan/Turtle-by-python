@@ -1,129 +1,67 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+import turtle as t
+t.pencolor('red')
+t.fillcolor('red')
+t.begin_fill()
+t.penup()
+t.goto(150,100)
+t.left(180)
+t.right(3)
+t.pendown()
+for i in  range(10):
+    t.forward(30)
+    t.left(0.5)
+for i in range(65):
+    t.forward(1)
+    t.left(1)
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
+for i in range(6):
+    t.forward(2)
+    t.left(2)
+for i in range(8):
+    t.forward(10)
+    t.left(1)
+for i in range(10):
+    t.left(1)
+    t.forward(10)
+for i in range(6):
+    t.forward(2)
+    t.left(2)
+for i in range(65):
+    t.forward(1)
+    t.left(1)
+t.left(3)
+for i in  range(10):
+    t.forward(30)
+    t.left(0.5)
+for i in range(65):
+    t.forward(1)
+    t.left(1)
+for i in range(6):
+    t.forward(2)
+    t.left(2)
+for i in range(8):
+    t.forward(10)
+    t.left(1)
+for i in range(10):
+    t.left(1)
+    t.forward(10)
+for i in range(65):
+    t.forward(1)
+    t.left(1)
+for i in range(6):
+    t.forward(2)
+    t.left(2)
+t.end_fill()
+t.pencolor('white')
+t.penup()
+t.goto(0,0)
+t.goto(-27,13)
+t.pendown()
+t.fillcolor('white')
+t.begin_fill()
+t.left(93)
+for i in range(3):
+    t.forward(100)
+    t.left(120)
+t.end_fill()
+turtle.done()
